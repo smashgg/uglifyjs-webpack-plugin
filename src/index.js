@@ -22,7 +22,7 @@ class UglifyJsPlugin {
       uglifyOptions = {},
       test = /\.js$/i,
       warningsFilter = () => true,
-      extractComments = false,
+      extractComments = true,
       sourceMap = false,
       cache = false,
       parallel = false,
